@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To BabarAli
+#The Credit For This Code Goes To Bdleo
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -48,7 +48,7 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.01)
 
-#Dev:Babar_Ali
+#Dev:bdleo
 ##### LOGO #####
 logo = """
                  .88888888:.
@@ -87,7 +87,7 @@ logo = """
 \033[1;91m [⚡\033[1;97mAuthor Name:    BD〆ʟɪ  ⚡\033[1;91m]
 \033[1;91m [⚡\033[1;97mYutube Chnl: mash 2.0 ⚡\033[1;91m]
 \033[1;91m [⚡       \033[1;97mFrom: Bangladesh      ⚡\033[1;91m]
-\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»
+\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mATTACK\033[1;95m-_-_-_-_-_-_-_-_-»
 """
 
 def tik():
@@ -124,7 +124,7 @@ print  """
 \033[1;92mNote2: This Tool is only for Bangladesh
 \033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»
  """
-CorrectUsername = "Huntter"
+CorrectUsername = "cayber"
 CorrectPassword = "beleo1"
 
 loop = 'true'
@@ -266,7 +266,7 @@ def menu():
 	print "	   \033[1;91m ID\033[1;93m:\033[1;91m"+id+"\x1b[1;93m              "
 	print "\033[1;97m[1]\x1b[1;92mStart Hacking"
 	print "\033[1;97m[2]\x1b[1;92mID Not Found Problem"
-	print "\033[1;97m[3]\x1b[1;92mSubscribe Pak Anonymous Youtube Channel " 
+	print "\033[1;97m[3]\x1b[1;92mSubscribe MASH2.0 " 
 	print "\033[1;97m[0]\033[1;93mExit            "
 	pilih()
 
@@ -383,7 +383,7 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:love_hacker
+			pass #Dev:CAYBER_JOKER
 		try:													
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
@@ -591,11 +591,11 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-#Dev:Babar_Ali
-        print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»"
+#Dev:BDLEO
+        print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mBdleo\033[1;95m-_-_-_-_-_-_-_-_-»"
 	print '\033[1;94m[Process Has Been Completed]'
 	print"\033[1;94mTotal\033[1;92mOK/\x1b[1;91mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
-	print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»"
+	print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mBDLEO\033[1;95m-_-_-_-_-_-_-_-_-»"
 	print """
              
           ^^         |         ^^
@@ -618,7 +618,7 @@ def pilih_super():
              ::             ::
              ^^             ^^
 
-print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»"
+print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mBDLEO\033[1;95m-_-_-_-_-_-_-_-_-»"
 	
 \033[1;94m██████╗░██╗░░░██╗███████╗
 \033[1;94m██╔══██╗╚██╗░██╔╝██╔════╝
@@ -627,7 +627,7 @@ print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-
 \033[1;94m██████╦╝░░░██║░░░███████╗
 \033[1;94m╚═════╝░░░░╚═╝░░░╚══════╝
 """
-	print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»"
+	print "\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mBDLEO\033[1;95m-_-_-_-_-_-_-_-_-»"
 	raw_input("\n\033[1;97m[\033[1;95mBack\033[1;97m]")
 	menu()
 
